@@ -23,6 +23,6 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-            cd C:\github_actions_test
+            cd C:\github_actions_test\paper-kit-2-angular
             npm install --legacy-peer-deps
             ng build
